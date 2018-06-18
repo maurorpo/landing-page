@@ -23,16 +23,154 @@
 
         <link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="//ajax.googleapis.com" rel="dns-prefetch">
-        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.min.css" rel="stylesheet">
-        
     </head>
     <body>
+        <header id="header" class="">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Logotipo</a>  
+                </div>
+                <div class="ico ico-open hidden-lg hidden-md"><i class="fas fa-ellipsis-v"></i></div>
+                <nav id="navbar">
+                    <div class="ico ico-close hidden-lg hidden-md"><i class="fas fa-times"></i></div>
+                    <ul>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">La Marca</a></li>
+                        <li><a href="#">¿Dónde comprar?</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <section id="main">
+            <section id="ppal">
+                <div class="container">
+                    <div class="content_ppal">
+                        <div class="miga"></div>
+                        <div class="description_ppal">
+                            <h1 class="description_title">La marca</h1>
+                            <article class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Donec sed turpis non lectus facilisis condimentum sit amet quis magna. Praesent aliquam eleifend rutrum. </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="product_ppal">
+                <div class="container">
+                    <div class="imgs">
+                        <div class="line line1" data-200="height: 100px;top:-10%; opacity: 0;" data-500="height: 100px;top:30%; opacity: 1;" data-700="height: 0px; top: 50%;"></div>
+                        <div class="line line2" data-600="height: 100px;top: 50%; opacity: 0;" data-1000="height: 100px;top: 90%; opacity: 1;" data-1200="height: 0px; top: 90%;"></div>
+                        <div class="bannerppal2"><img data-100="left:10%; opacity: 0;" data-500="left:18%; opacity: 1;" class="img-reponsive" src="images/bannerppal2.png" alt="Producto principal banner 2"></div>
+                        <div class="bannerppal1"><img data-10="right:10%; opacity: 0;" data-300="right:18%; opacity: 1;" class="img-reponsive" src="images/bannerppal1.png" alt="Producto principal banner"></div>
+                        <div class="manikin"><img class="img-reponsive" src="images/maniqui.png" alt="Producto principal"></div>
+                    </div>
+                    <article class="content_product" data-600="left: -20px; opacity: 0;" data-1000="left: 50px; opacity: 1;">Lorem ipsum dolor sit amet</article>
+                </div>
+                <div class="text_ppal" data-50="top:44%; right: -64%;" data-700="top:80%; right: 100%;"><h1>MENS CLEAR</h1></div>
+            </section>
+            <section id="producto_description">
+                <div class="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content">
+                                    <article class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Donec sed turpis non lectus facilisis condimentum sit amet quis magna. Praesent aliquam eleifend rutrum.</article>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content">
+                                    <article class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Donec sed turpis non lectus facilisis condimentum sit amet quis magna. Praesent aliquam eleifend rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Donec sed turpis non lectus facilisis condimentum sit amet quis magna. Praesent aliquam eleifend rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Donec sed turpis non lectus facilisis condimentum sit amet quis magna. Praesent aliquam eleifend rutrum.</article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="img"><img data-1000="top:30px; opacity: 0;" data-1400="top:-145px; opacity: 1;" data-1700="top:-75px; opacity: 1;" class="img-responsive" src="images/descriptionproduct.png" alt="Producto"></div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <article class="description_img">
+                                    <h1 class="title" data-1100="left: -200px; opacity: 0;" data-1400="left: 0; opacity: 1;">Lorem ipsum dolor sit amet</h1>
+                                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget viverra eros, in molestie eros.</div>
+                                    <div class="line line_description" data-1300="left: -36%; opacity: 0; width: 100px;" data-1600="left: 20%; opacity: 1; width: 100px;" data-1700="width: 0px;"></div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="form">
+                                <h1 class="title_form">Suscríbete a nuestro newsletter<br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></h1>
+                                <div class="bs-callout bs-callout-warning hidden">
+                                  <h4>Ups</h4>
+                                  <p>Todos los campos son obligatorios</p>
+                                </div>
 
+                                <div class="bs-callout bs-callout-info hidden">
+                                  <h4>Muy bien!</h4>
+                                  <p>Te has suscrito a nuestro Newsletter</p>
+                                </div>
+
+                                <form id="demo-form" data-parsley-validate="">
+                                    <div>
+                                        <input type="text" class="" name="fullname" placeholder="NOMBRE COMPLETO" required="">
+                                        <input type="email" class="" name="email" data-parsley-trigger="change" placeholder="CORREO ELECTRÓNICO" required="">
+                                    </div>
+                                    <div>
+                                        <select id="heard" required="">
+                                            <option value="">TIPO DE DOCUMENTO</option>
+                                            <option value="press">Cédula</option>
+                                            <option value="net">Tarjeta de identidad</option>
+                                            <option value="mouth">Pasaporte</option>
+                                            <option value="other">Otro</option>
+                                        </select>
+                                        <input type="number" class="" name="id" placeholder="NÚMERO DE DOCUMENTO" required="">
+                                    </div>
+                                    <div>
+                                        <input type="number" class="" name="phone" placeholder="TELÉFONO" required="">
+                                        <input type="checkbox" name="terms" id="terms" value="terms" required=""> ACEPTO TÉRMINOS Y CONDICIONES <input type="submit" class="btn btn-default" value="validate">
+                                    </div>
+                                </form>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('#form').parsley().on('field:validated', function() {
+                                            var ok = $('.parsley-error').length === 0;
+                                            $('.bs-callout-info').toggleClass('hidden', !ok);
+                                            $('.bs-callout-warning').toggleClass('hidden', ok);
+                                        })
+                                        .on('form:submit', function() {
+                                            return false;
+                                        });
+                                    });
+                                </script> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
-
+        <footer>
+            <div class="container">
+                <div class="dir">Todo los derechos reservados &copy; </div>
+            </div>
+        </footer>
+        <script src="js/skrollr.min.js"></script>
+        <script src="js/parsley.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.min.js"></script>
     </body>
